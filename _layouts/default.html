@@ -6,11 +6,19 @@
     <title>{{ page.title }} | {{ site.title }}</title>
 
     <link rel="stylesheet" href="{{ "/assets/css/global.css" }}">
+
     <link rel="stylesheet" href="{{ "/assets/lib/bootstrap.min.css" | relative_url }}">
-
-
     <script src="{{ "/assets/lib/bootstrap.bundle.min.js" }}"></script>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HEFS4RQB9Q"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-HEFS4RQB9Q');
+    </script>
   </head>
   <body>
     <div class="col-md-8 py-5 px-3 mx-auto">
