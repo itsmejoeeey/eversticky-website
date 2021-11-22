@@ -1,0 +1,47 @@
+/*
+ *  TODO: Many of these style changes should be made instead by compiling
+ *  Bootstrap with custom Sass variables.
+ */
+
+blockquote {
+  border-left: .25em solid #dfe2e5;
+  color: #6a737d;
+  padding: 0 1em;
+}
+
+h2:not([class]) {
+    padding-bottom: 0.5em;
+}
+
+.accordion-button:not(.collapsed)
+{
+    background-color: transparent !important;
+    color: #000000 !important;
+}
+
+.accordion-button:not(.collapsed)::after
+{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000000'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+}
+
+.btn.btn-primary
+{
+    background-image: linear-gradient(#2dbe60ff, #2dbea8ff);
+    border: none;
+    box-shadow: 4px 6px 2px #00000032;
+}
+
+.accordion-button:active,
+.accordion-button:focus,
+.btn.btn-primary:active,
+.btn.btn-primary:focus
+{
+    /*outline: none !important;*/
+    /*box-shadow: none !important;*/
+    box-shadow: 0 0 0 0.2rem #00000032 !important;
+}
+
+.styled-links a
+{
+    color: #26ac55 !important;
+}

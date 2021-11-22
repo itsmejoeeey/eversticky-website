@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} | {{ site.title }}</title>
+
+    <link rel="stylesheet" href="{{ "/assets/css/global.css" }}">
+    <link rel="stylesheet" href="{{ "/assets/lib/bootstrap.min.css" | relative_url }}">
+
+
+    <script src="{{ "/assets/lib/bootstrap.bundle.min.js" }}"></script>
+
+  </head>
+  <body>
+    <div class="col-md-8 py-5 px-3 mx-auto">
+        {% include header.html %}
+
+        {{ content }}
+
+        {% include footer.html %}
+    </div>
+  </body>
+</html>
