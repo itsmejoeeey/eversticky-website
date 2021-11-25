@@ -20,8 +20,8 @@ Find instructions specific to your distribution below:
     </div>
     <div class="col-md-9">
         <p>For Ubuntu (and Ubuntu-deriviatives) simply install the deb software package.</p>
-        <pre><code>wget https://github.com/itsmejoeeey/eversticky/releases/download/v0.95.0/eversticky_0.95.0-1_amd64.deb
-sudo apt install ./eversticky_0.95.0-1_amd64.deb</code></pre>
+        <pre><code>wget https://github.com/itsmejoeeey/eversticky/releases/download/v0.95.1/eversticky_0.95.1-1_amd64.deb
+sudo apt install ./eversticky_0.95.1-1_amd64.deb</code></pre>
         <p>Snap coming soon...</p>
     </div>
 </div>
