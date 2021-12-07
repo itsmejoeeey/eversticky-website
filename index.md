@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Home"
+description: "Sticky notes for the Linux desktop · Sync to Evernote® · Open-source & free forever"
 active: "index"
 ---
 
