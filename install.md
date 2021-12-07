@@ -6,10 +6,15 @@ active: "install"
 
 ## Download
 
-EverSticky is compatible with most up-to-date Linux systems. It relies primarily on Qt with Qt WebEngine and will run on any desktop environment. Packages are provided for a number of current Linux distributions.
+EverSticky is compatible with most up-to-date Linux systems. It relies primarily on Qt with Qt WebEngine and will run on any desktop environment.
+Packages are provided for a number of current Linux distributions.
 
-Find instructions specific to your distribution below:
+_EverSticky is now available on the Snap Store._
 
+<br/>
+
+##### Find instructions specific to your distribution below:
+<br/>
 <div class="row pt-3">
     <div class="col-md-3">
         <ul class="list-unstyled">
@@ -19,10 +24,15 @@ Find instructions specific to your distribution below:
         </ul>
     </div>
     <div class="col-md-9">
-        <p>For Ubuntu (and Ubuntu-deriviatives) simply install the deb software package.</p>
+        <p>Available from the Snap Store.</p>
+        <p><a href="https://snapcraft.io/eversticky">
+            <img alt="Get it from the Snap Store" src="{{ "/assets/img/snap-store-black.svg" }}" />
+        </a></p>
+        <p><b>OR</b></p>
+        <p>For Ubuntu (and Ubuntu-deriviatives) simply install the deb software package. <i>This package is far smaller in size than the Snap Store version but will not auto-update.</i></p>
+        <p>Run the following commands:</p>
         <pre><code>wget https://github.com/itsmejoeeey/eversticky/releases/download/v0.95.2/eversticky_0.95.2-1_amd64.deb
 sudo apt install ./eversticky_0.95.2-1_amd64.deb</code></pre>
-        <p>Snap coming soon...</p>
     </div>
 </div>
 
