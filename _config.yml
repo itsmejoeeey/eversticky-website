@@ -1,3 +1,7 @@
 url: "https://eversticky.joeeey.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/" # the subpath of your site, e.g. /blog
 title: "EverSticky" # the name of your site, e.g. ACME Corp.
+
+social_meta_title: "EverSticky — Sticky notes for the Linux desktop"
+social_meta_description: "Take notes that you can access everywhere you can access Evernote®."
+social_meta_image: "/assets/img/social_banner.png"
