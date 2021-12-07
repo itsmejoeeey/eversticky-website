@@ -3,14 +3,23 @@
  *  Bootstrap with custom Sass variables.
  */
 
-blockquote {
+blockquote
+{
   border-left: .25em solid #dfe2e5;
   color: #6a737d;
   padding: 0 1em;
 }
 
-h2:not([class]) {
+h2:not([class])
+{
     padding-bottom: 0.5em;
+}
+
+#github-banner
+{
+    position: absolute;
+    right: 0px;
+    top: 0px;
 }
 
 .accordion-button:not(.collapsed)
