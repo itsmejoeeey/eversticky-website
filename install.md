@@ -31,8 +31,8 @@ _EverSticky is now available on the Snap Store._
         <p><b>OR</b></p>
         <p>For Ubuntu (and Ubuntu-deriviatives) simply install the deb software package. <i>This package is far smaller in size than the Snap Store version but will not auto-update.</i></p>
         <p>Run the following commands:</p>
-        <pre><code>wget https://github.com/itsmejoeeey/eversticky/releases/download/v0.95.2/eversticky_0.95.2-1_amd64.deb
-sudo apt install ./eversticky_0.95.2-1_amd64.deb</code></pre>
+        <pre><code>wget https://github.com/itsmejoeeey/eversticky/releases/download/v0.96.0/eversticky_0.96.0-1_amd64.deb
+sudo apt install ./eversticky_0.96.0-1_amd64.deb</code></pre>
     </div>
 </div>
 
